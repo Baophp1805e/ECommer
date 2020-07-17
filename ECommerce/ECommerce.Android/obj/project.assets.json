@@ -6513,11 +6513,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.Android/ECommerce.Android.csproj",
+      "projectUniqueName": "/Users/pro/Private/MyGithub/ECommer/ECommerce/ECommerce.Android/ECommerce.Android.csproj",
       "projectName": "ECommerce.Android",
-      "projectPath": "/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.Android/ECommerce.Android.csproj",
+      "projectPath": "/Users/pro/Private/MyGithub/ECommer/ECommerce/ECommerce.Android/ECommerce.Android.csproj",
       "packagesPath": "/Users/pro/.nuget/packages/",
-      "outputPath": "/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.Android/obj/",
+      "outputPath": "/Users/pro/Private/MyGithub/ECommer/ECommerce/ECommerce.Android/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -6532,8 +6532,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce/ECommerce.csproj": {
-              "projectPath": "/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce/ECommerce.csproj"
+            "/Users/pro/Private/MyGithub/ECommer/ECommerce/ECommerce/ECommerce.csproj": {
+              "projectPath": "/Users/pro/Private/MyGithub/ECommer/ECommerce/ECommerce/ECommerce.csproj"
             }
           }
         }

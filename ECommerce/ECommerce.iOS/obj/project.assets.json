@@ -8011,11 +8011,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/ECommerce.iOS.csproj",
+      "projectUniqueName": "/Users/pro/Private/MyGithub/ECommer/ECommerce/ECommerce.iOS/ECommerce.iOS.csproj",
       "projectName": "ECommerce.iOS",
-      "projectPath": "/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/ECommerce.iOS.csproj",
+      "projectPath": "/Users/pro/Private/MyGithub/ECommer/ECommerce/ECommerce.iOS/ECommerce.iOS.csproj",
       "packagesPath": "/Users/pro/.nuget/packages/",
-      "outputPath": "/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/",
+      "outputPath": "/Users/pro/Private/MyGithub/ECommer/ECommerce/ECommerce.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -8030,8 +8030,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce/ECommerce.csproj": {
-              "projectPath": "/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce/ECommerce.csproj"
+            "/Users/pro/Private/MyGithub/ECommer/ECommerce/ECommerce/ECommerce.csproj": {
+              "projectPath": "/Users/pro/Private/MyGithub/ECommer/ECommerce/ECommerce/ECommerce.csproj"
             }
           }
         }

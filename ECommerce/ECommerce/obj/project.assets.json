@@ -3663,11 +3663,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce/ECommerce.csproj",
+      "projectUniqueName": "/Users/pro/Private/MyGithub/ECommer/ECommerce/ECommerce/ECommerce.csproj",
       "projectName": "ECommerce",
-      "projectPath": "/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce/ECommerce.csproj",
+      "projectPath": "/Users/pro/Private/MyGithub/ECommer/ECommerce/ECommerce/ECommerce.csproj",
       "packagesPath": "/Users/pro/.nuget/packages/",
-      "outputPath": "/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce/obj/",
+      "outputPath": "/Users/pro/Private/MyGithub/ECommer/ECommerce/ECommerce/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/pro/.config/NuGet/NuGet.Config"

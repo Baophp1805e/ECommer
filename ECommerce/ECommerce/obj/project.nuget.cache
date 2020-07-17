@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "icnJAgkZ8xdeH/E8QeImeC5LDT1hD9znD6ecU5My85nKsFXdi+IPuNuvEaMWolT7ABsAMOBrUG23P3aOZ7Qclg==",
+  "dgSpecHash": "R6bfLjlQw0F2oYNJ5cgWur7IL6/7/TEFqFGI83aBxBoRpkbKkcMMErUZxcf8OA+UEGL5VAn8p9u651zx2waOyg==",
   "success": true,
-  "projectFilePath": "/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce/ECommerce.csproj",
+  "projectFilePath": "/Users/pro/Private/MyGithub/ECommer/ECommerce/ECommerce/ECommerce.csproj",
   "expectedPackageFiles": [
     "/Users/pro/.nuget/packages/asyncawaitbestpractices/4.2.0/asyncawaitbestpractices.4.2.0.nupkg.sha512",
     "/Users/pro/.nuget/packages/asyncawaitbestpractices.mvvm/4.2.0/asyncawaitbestpractices.mvvm.4.2.0.nupkg.sha512",

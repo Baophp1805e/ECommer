@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{A166D7AC-0B1A-4A3A-A17F-85213EB98ABF}|Default">
+  <MonoDevelop.Ide.ItemProperties.ECommerce.Android PreferredExecutionTarget="Android.HT557SV00498" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ECommerce/ECommerce.Android/MainActivity.cs">
+    <Files>
+      <File FileName="ECommerce/ECommerce.Android/Localize/LocalCache.cs" Line="1" Column="1" />
+      <File FileName="ECommerce/ECommerce.Android/MainActivity.cs" Line="15" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ECommerce" expanded="True">
+            <Node name="ECommerce.Android" expanded="True">
+              <Node name="Localize" expanded="True" />
+              <Node name="MainActivity.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:views="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+    x:Name="root"
+    x:Class="ECommerce.Home.Views.SearchPage">
+     <NavigationPage.TitleView>
+        <Grid
+            RowSpacing="0"
+            ColumnSpacing="2"
+            Padding="0"
+            BackgroundColor="Transparent">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition
+                    Width="*" />
+                <ColumnDefinition
+                    Width="44" />
+            </Grid.ColumnDefinitions>
+            <Frame
+                Padding="0"
+                BackgroundColor="#1AFFFFFF"
+                HasShadow="False">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition
+                            Width="44" />
+                        <ColumnDefinition
+                            Width="*" />
+                        <ColumnDefinition
+                            Width="44" />
+                    </Grid.ColumnDefinitions>
+                    <Button
+                        BackgroundColor="Transparent"
+                        ImageSource="ic_search"
+                        Command="{Binding TapSearchCmd}"/>
+                    <Entry
+                        Text="{Binding TextString, Mode=TwoWay}"
+                        TextColor="White"
+                        Grid.Column="1"
+                        Placeholder="Type here ..."
+                        PlaceholderColor="White" />
+                    <Button
+                        BackgroundColor="Transparent"
+                        Command="{Binding TapCloseCmd}"
+                        CommandParameter="{Binding TextString}"
+                        ImageSource="ic_close_navi"
+                        Grid.Column="2" />
+                </Grid>
+            </Frame>
+            <Button
+                BackgroundColor="Transparent"
+                Grid.Column="1"
+                Command="{Binding TapFilterCmd}"
+                ImageSource="btn_right" />
+        </Grid>
+    </NavigationPage.TitleView>
+    <ContentPage.Content>
+        <ListView
+            ItemsSource="{Binding ProductModel}"
+            SeparatorVisibility="None"
+            RowHeight="92">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame
+                            Padding="0"
+                            HasShadow="False">
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding Source={x:Reference root}, Path=BindingContext.TapItem}" CommandParameter="{Binding .}" />
+                            </Frame.GestureRecognizers>
+                            <Grid
+                                RowSpacing="0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition
+                                        Height="*" />
+                                    <RowDefinition
+                                        Height="*" />
+                                    <RowDefinition
+                                        Height="*" />
+                                    <RowDefinition
+                                        Height="*" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition
+                                        Width="92" />
+                                    <ColumnDefinition
+                                        Width="*" />
+                                </Grid.ColumnDefinitions>
+                                <views:CachedImage
+                                    VerticalOptions="Center"
+                                    Grid.Row="1"
+                                    Source="{Binding Image}"
+                                    Grid.RowSpan="3"
+                                    Aspect="AspectFit" />
+                                <Label
+                                    Text="{Binding NameProduct}"
+                                    Grid.Row="1"
+                                    FontSize="17"
+                                    Grid.Column="1" />
+                                <Label
+                                    Text="{Binding Desmini}"
+                                    Grid.Row="2"
+                                    FontSize="10"
+                                    TextColor="#A6B0BD"
+                                    Grid.Column="1" />
+                                <Label
+                                    Text="{Binding Price}"
+                                    Grid.Row="3"
+                                    FontSize="17"
+                                    Grid.Column="1" />
+                                <BoxView
+                                    HeightRequest="0.5"
+                                    Grid.Row="4"
+                                    Grid.ColumnSpan="2"
+                                    VerticalOptions="End"
+                                    Margin="16,0"
+                                    Opacity="0.5"
+                                    BackgroundColor="#707070" />
+                            </Grid>
+                        </Frame>
+
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage.Content>
+</ContentPage>

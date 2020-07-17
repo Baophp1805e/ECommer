@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:views="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+    BackgroundColor="#F8F8F8"
+    xmlns:model="clr-namespace:ECommerce.Home.Models"
+    x:Class="ECommerce.Home.Views.ShoppingCartPage">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition
+                    Height="48" />
+                <RowDefinition
+                    Height="*" />
+            </Grid.RowDefinitions>
+            <Frame
+                Padding="0"
+                CornerRadius="0"
+                HasShadow="False">
+                <StackLayout
+                    HorizontalOptions="Center"
+                    Orientation="Horizontal"
+                    Spacing="16">
+                    <Button
+                        Command="{Binding BtnCommand}"
+                        CommandParameter="{Static model:PickupButton.CurrentOrder}"
+                        BackgroundColor="Transparent"
+                        Text="Current Order"
+                        WidthRequest="112"
+                        Margin="16,0,0,0"
+                        FontSize="15"
+                        HorizontalOptions="Center"
+                        TextColor="#A6B0BD" >
+                        <Button.Triggers>
+                            <DataTrigger TargetType="Button" Binding="{Binding Pick}" Value="{Static model:PickupButton.CurrentOrder}"  >
+                                <Setter Property="TextColor" Value="#000000"/>
+                            </DataTrigger>
+                        </Button.Triggers>
+                        </Button>
+                    <Button
+                        Command="{Binding BtnCommand}"
+                        CommandParameter="{Static model:PickupButton.PendingOrders}"
+                        BackgroundColor="Transparent"
+                        Text="Pending Orders"
+                        FontSize="15"
+                        HorizontalOptions="Center"
+                        WidthRequest="112"
+                        TextColor="#A6B0BD" >
+                        <Button.Triggers>
+                            <DataTrigger TargetType="Button" Binding="{Binding Pick}" Value="{Static model:PickupButton.PendingOrders}" >
+                                <Setter Property="TextColor" Value="#000000" />
+                            </DataTrigger>
+                        </Button.Triggers>
+                        </Button>
+                    <Button
+                        Command="{Binding BtnCommand}"
+                        CommandParameter="{Static model:PickupButton.History}"
+                        BackgroundColor="Transparent"
+                        Text="History"
+                        FontSize="15"
+                        HorizontalOptions="Center"
+                        WidthRequest="112"
+                        TextColor="#A6B0BD" >
+                        <Button.Triggers>
+                            <DataTrigger TargetType="Button" Binding="{Binding Pick}" Value="{Static model:PickupButton.History}" >
+                                <Setter Property="TextColor" Value="#000000" />
+                            </DataTrigger>
+                        </Button.Triggers>
+                        </Button>
+                </StackLayout>
+            </Frame>
+            <ListView
+                x:Name="lstView"
+                BackgroundColor="Transparent"
+                Grid.Row="1"
+                IsGroupingEnabled="true" 
+                ItemsSource="{Binding getProductModels}"
+                SeparatorVisibility="None"
+                HasUnevenRows="True">
+                <!-- Group Header Customization-->
+                <ListView.GroupHeaderTemplate>
+                    <DataTemplate>
+                        <!--<TextCell
+                            Text="{Binding StoreName}"
+                            Detail="{Binding ShortName}"
+                            TextColor="#f35e20"
+                            DetailColor="#503026" />-->
+                        <ViewCell Height="116">
+                            <Frame
+                                CornerRadius="0"
+                                HasShadow="False"
+                                Margin="16,16,16,0"
+                                Padding="0">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition
+                                            Height="16" />
+                                        <RowDefinition
+                                            Height="56" />
+                                        <RowDefinition
+                                            Height="16" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition
+                                            Width="88" />
+                                        <ColumnDefinition
+                                            Width="*" />
+                                        <ColumnDefinition
+                                            Width="48" />
+                                    </Grid.ColumnDefinitions>
+                                    <views:CachedImage
+                                        Source="{Binding Store.Avatar}"
+                                        VerticalOptions="Center"
+                                        HorizontalOptions="Center"
+                                        WidthRequest="56"
+                                        Grid.RowSpan="2"
+                                        HeightRequest="56" />
+                                    <Label
+                                        Text="Order from:"
+                                        FontSize="10"
+                                        Margin="0,24"
+                                        TextColor="#A6B0BD"
+                                        Grid.RowSpan="2"
+                                        Grid.Column="1" />
+                                    <Label
+                                        Grid.Row="1"
+                                        VerticalOptions="Center"
+                                        Text="{Binding Store.NameStoreOwner}"
+                                        TextColor="#1E2024"
+                                        FontSize="16"
+                                        Grid.Column="1" />
+                                    <views:CachedImage
+                                        Grid.RowSpan="2"
+                                        Source="ic_more"
+                                        HorizontalOptions="Center"
+                                        Aspect="AspectFit"
+                                        Margin="0,0,16,0"
+                                        Grid.Column="2" />
+                                    <BoxView HeightRequest="1" BackgroundColor="#E1E4EC" Margin="16,0" VerticalOptions="Center" Grid.ColumnSpan="3" Grid.Row="2"/>
+                                    <Grid
+                                        ColumnSpacing="0"
+                                          Grid.ColumnSpan="3"
+                                        Grid.Row="3">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition
+                                                Height="32" />
+                                            <RowDefinition
+                                                Height="24" />
+                                            <RowDefinition
+                                                Height="16" />
+                                             <RowDefinition
+                                                Height="16" />
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition
+                                                Width="96" />
+                                            <ColumnDefinition
+                                                Width="*" />
+                                            <ColumnDefinition
+                                                Width="80" />
+                                            <ColumnDefinition
+                                                Width="24" />
+                                        </Grid.ColumnDefinitions>
+                                        <views:CachedImage
+                                            Margin="8"
+                                            Aspect="AspectFit"
+                                            Source="{Binding Products.Image}"
+                                            Grid.RowSpan="3" />
+                                        <Label
+                                            Text="{Binding Products.NameProduct}"
+                                            TextColor="Black"
+                                            FontSize="17"
+                                            Grid.ColumnSpan="2"
+                                            Grid.Column="1"
+                                            VerticalOptions="End"
+                                            Grid.Row="0"/>
+                                        <Label
+                                            Text="{Binding Desmini}"
+                                            TextColor="#A6B0BD"
+                                            VerticalOptions="Start"
+                                            FontSize="10"
+                                            Grid.Column="1"
+                                            Grid.Row="1" />
+                                        <Label
+                                            Text="$399.95"
+                                            TextColor="#1E2024"
+                                            FontSize="16"
+                                            Grid.Column="1"
+                                            Grid.Row="2" />
+                                        <Label
+                                            HorizontalOptions="Center"
+                                            VerticalOptions="Center"
+                                            Grid.Column="2"
+                                            Grid.Row="2">
+                                            <Label.FormattedText>
+                                                <FormattedString>
+                                                    <Span
+                                                        Text="Quantity: "
+                                                        FontSize="10"
+                                                        TextColor="#A6B0BD" />
+                                                    <Span
+                                                        Text="2"
+                                                        TextColor="#327AE5"
+                                                        FontSize="10" />
+                                                </FormattedString>
+                                            </Label.FormattedText>
+                                        </Label>
+                                        <views:CachedImage
+                                            Grid.Row="2"
+                                            VerticalOptions="Center"
+                                            Grid.Column="3"
+                                            Source="ic_arrow"
+                                            HorizontalOptions="Center"
+                                            Aspect="AspectFit"
+                                            Margin="0,0,16,0" />
+                                    </Grid>
+                                </Grid>
+                            </Frame>
+                        </ViewCell>
+                        
+                    </DataTemplate>
+                </ListView.GroupHeaderTemplate>
+                <!-- End Group Header Customization -->
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame
+                                CornerRadius="0"
+                                HasShadow="False"
+                                Margin="16,0"
+                                Padding="0">
+                                <Grid
+                                    ColumnSpacing="0">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition
+                                            Height="32" />
+                                        <RowDefinition
+                                            Height="24" />
+                                        <RowDefinition
+                                            Height="16" />
+                                        <RowDefinition
+                                            Height="16" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition
+                                            Width="96" />
+                                        <ColumnDefinition
+                                            Width="*" />
+                                        <ColumnDefinition
+                                            Width="80" />
+                                        <ColumnDefinition
+                                            Width="24" />
+                                    </Grid.ColumnDefinitions>
+                                    <views:CachedImage
+                                        Margin="8"
+                                        Aspect="AspectFit"
+                                        Source="{Binding Image}"
+                                        Grid.RowSpan="3" />
+                                    <Label
+                                        Text="{Binding NameProduct}"
+                                        TextColor="Black"
+                                        FontSize="17"
+                                        Grid.ColumnSpan="2"
+                                        Grid.Column="1"
+                                        VerticalOptions="End"
+                                        Grid.Row="0" />
+                                    <Label
+                                        Text="{Binding Products.Desmini}"
+                                        TextColor="#A6B0BD"
+                                        VerticalOptions="Start"
+                                        FontSize="10"
+                                        Grid.Column="1"
+                                        Grid.Row="1" />
+                                    <Label
+                                        Text="$399.95"
+                                        TextColor="#1E2024"
+                                        FontSize="16"
+                                        Grid.Column="1"
+                                        Grid.Row="2" />
+                                    <Label
+                                        HorizontalOptions="Center"
+                                        VerticalOptions="Center"
+                                        Grid.Column="2"
+                                        Grid.Row="2">
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <Span
+                                                    Text="Quantity: "
+                                                    FontSize="10"
+                                                    TextColor="#A6B0BD" />
+                                                <Span
+                                                    Text="2"
+                                                    TextColor="#327AE5"
+                                                    FontSize="10" />
+                                            </FormattedString>
+                                        </Label.FormattedText>
+                                    </Label>
+                                    <views:CachedImage
+                                        Grid.Row="2"
+                                        VerticalOptions="Center"
+                                        Grid.Column="3"
+                                        Source="ic_arrow"
+                                        HorizontalOptions="Center"
+                                        Aspect="AspectFit"
+                                        Margin="0,0,16,0" />
+                                </Grid>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

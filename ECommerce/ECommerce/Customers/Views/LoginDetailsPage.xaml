@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:iOS="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    iOS:Page.UseSafeArea="False"
+    NavigationPage.HasNavigationBar="False"
+    x:Class="ECommerce.Customers.Views.LoginDetailsPage">
+    <ContentPage.Content>
+        <Grid RowSpacing="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="48" />
+                <RowDefinition Height="48" />
+                <RowDefinition Height="72" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="72" />
+                <RowDefinition Height="48" />
+                <RowDefinition Height="48" />
+                <RowDefinition Height="10" />
+            </Grid.RowDefinitions>
+            <Image
+                Source="ic_bg_login_details.png"
+                Aspect="AspectFill"
+                Grid.RowSpan="9" />
+            <Image Source="ic_close_btn"
+                   Aspect="AspectFit"
+                    Margin="16,16,0,0"
+                   HeightRequest="44"
+                   WidthRequest="44"
+                    HorizontalOptions="Start"
+                    VerticalOptions="Start">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding TapCloseCmd}" />
+                </Image.GestureRecognizers>
+                </Image>
+            <Image Source="ic_logo_login"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+               Aspect="AspectFit"
+                   HeightRequest="106"/>
+            <Entry Placeholder="Username or Email"
+                   PlaceholderColor="White"
+                   HorizontalOptions="Center"
+                   Grid.Row="1"
+                   BackgroundColor="Transparent"
+                   FontSize="20"/>
+            <BoxView HeightRequest="0.5"
+                     Margin="32,0"
+                     BackgroundColor="#4DFFFFFF"
+                     Grid.Row="1"
+                     VerticalOptions="End" />
+            <StackLayout Grid.Row="2"
+                         Orientation="Horizontal"
+                         Padding="32,0"
+                         VerticalOptions="Center"
+                         BackgroundColor="Transparent">
+                <Entry Placeholder="Password"
+                   PlaceholderColor="White"
+                   VerticalOptions="Center"
+                   BackgroundColor="Transparent"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="20"/>
+                <Image Source="forgot_pass_icon"
+                       VerticalOptions="Center"
+                       WidthRequest="16"
+                       HeightRequest="16"
+                       HorizontalOptions="End"/>
+            </StackLayout>
+            
+           <BoxView HeightRequest="0.5"
+                     Margin="32,0"
+                     BackgroundColor="#4DFFFFFF"
+                     Grid.Row="2"
+                     VerticalOptions="End" />
+            <Button Text="LOGIN"
+                    TextColor="White"
+                    BackgroundColor="Transparent"
+                    Command="{Binding TapLoginCmd}"
+                    BorderWidth="1"
+                    Margin="32,16"
+                    Grid.Row="3"
+                    BorderColor="#4DFFFFFF"/>
+            <BoxView Grid.Row="5"
+                     WidthRequest="24"
+                     HeightRequest="2"
+                     HorizontalOptions="Center"
+                     BackgroundColor="White"
+                     VerticalOptions="Center"/>
+            <Button Text="New member?"
+                    TextColor="White"
+                    Grid.Row="6"
+                    BackgroundColor="Transparent"
+                    FontSize="12"
+                    VerticalOptions="End"
+                    WidthRequest="320"
+                    HorizontalOptions="Center"/>
+            <Button Text="CREATE ACCOUNT"
+                    TextColor="White"
+                    Grid.Row="7"
+                    Command="{Binding TapRegisterCmd}"
+                    WidthRequest="320"
+                    FontSize="14"
+                    VerticalOptions="Start"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="Center"/>
+
+        </Grid>
+        
+    </ContentPage.Content>
+</ContentPage>

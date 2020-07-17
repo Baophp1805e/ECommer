@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Tags"
+    xmlns:model="clr-namespace:ECommerce.Home.Models"
+    x:Class="ECommerce.Home.Views.TagsPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style
+                TargetType="Frame">
+                <Setter
+                    Property="Margin"
+                    Value="8" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition
+                    Height="120" />
+                <RowDefinition
+                    Height="*" />
+            </Grid.RowDefinitions>
+
+
+            <Label
+                Text="Help us make the experience perfect for you. Choose the items that you're the most interested in."
+                LineBreakMode="WordWrap"
+                HorizontalTextAlignment="Center"
+                TextColor="#A6B0BD"
+                FontSize="10"
+                HorizontalOptions="Center"
+                Margin="32" />
+            <ScrollView
+                Grid.Row="1">
+                <FlexLayout
+                    Margin="16,0,16,16"
+                    BindableLayout.ItemsSource="{Binding Tags}"
+                    Wrap="Wrap">
+                    <BindableLayout.ItemTemplate>
+                        <DataTemplate>
+                            <Frame
+                                BackgroundColor="White"
+                                Padding="0"
+                                WidthRequest="{Binding SizeTag}"
+                                HeightRequest="{Binding SizeTag}" 
+                                CornerRadius="{Binding Radious}">
+                                <Label
+                                    HorizontalTextAlignment="Center"
+                                    VerticalTextAlignment="Center"
+                                    Text="{Binding Title}"
+                                    FontSize="16"
+                                    HorizontalOptions="Center"
+                                    VerticalOptions="Center"
+                                    TextColor="Black" />
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding TapTagCmd}" CommandParameter="{Binding .}" Tapped="TapGestureRecognizer_Tapped"/>
+                                </Frame.GestureRecognizers>
+                            </Frame>
+                            
+                        </DataTemplate>
+                    </BindableLayout.ItemTemplate>
+                </FlexLayout>
+            </ScrollView>
+        </Grid>
+
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    BackgroundColor="Brown"
+    xmlns:i18n="clr-namespace:ECommerce.Localization"
+    Title="{Binding TitleLanguage.LangDictionary[name].TitleDic}"
+    x:Name="root"
+    x:Class="ECommerce.Home.Views.FlagPage">
+    <ContentPage.Content>
+        <Grid
+            VerticalOptions="Center"
+            Margin="25,0">
+
+            <Grid.RowDefinitions>
+                <RowDefinition
+                    Height="400" />
+                <RowDefinition
+                    Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition
+                    Width="*" />
+                <ColumnDefinition
+                    Width="116" />
+            </Grid.ColumnDefinitions>
+            <Label
+                TextColor="White"
+                VerticalOptions="Center"
+                Text="Hi, Welcome to My App!" />
+            <StackLayout
+                Spacing="10"
+                Grid.Row="1">
+                <Button
+                    Text="{i18n:Translate Title_Navi}"
+                    x:Name="btnScan"
+                    Clicked="btnScan_Clicked_1" />
+                <Label
+                    x:Name="myCode"
+                    Text=""
+                    TextColor="Red"
+                    HorizontalOptions="Center"/>
+            </StackLayout>
+            <Expander
+                IsExpanded="{Binding isExpand}"
+                VerticalOptions="Center"
+                Grid.Column="1"
+                >
+                <Expander.Header>
+                    <StackLayout
+                        BackgroundColor="Transparent"
+                        Padding="8"
+                        Orientation="Horizontal">
+                        <Label
+                            TextColor="White"
+                            Text="{Binding nameFlag}"
+                            VerticalOptions="Center" />
+                        <Image
+                            Source="{Binding imageFlag}" />
+                    </StackLayout>
+                </Expander.Header>
+                <ListView
+                    Grid.RowSpan="2"
+                    HasUnevenRows="True"
+                    ItemsSource="{Binding FlagModels}"
+                    BackgroundColor="Black">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+
+                            <StackLayout
+                                HorizontalOptions="Center"
+                                Grid.Column="1"
+                                Orientation="Horizontal">
+                                <Label
+                                    Text="{Binding NameFlag}"
+                                    TextColor="White"
+                                    VerticalOptions="Center" />
+                                <Image
+                                    Source="{Binding ImageFlag}" />
+                                <StackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer
+                                        Command="{Binding Source={x:Reference root} ,Path = BindingContext.TapItem}"
+                                        CommandParameter="{Binding .}" />
+                                </StackLayout.GestureRecognizers>
+                            </StackLayout>
+                                
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </Expander>
+            
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

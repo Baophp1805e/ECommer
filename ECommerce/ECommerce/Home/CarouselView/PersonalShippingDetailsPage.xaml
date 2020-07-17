@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    BackgroundColor="#F8F8F8"
+    x:Class="ECommerce.Home.CarouselView.PersonalShippingDetailsPage">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition
+                Height="*" />
+            <RowDefinition
+                Height="80" />
+        </Grid.RowDefinitions>
+        <ScrollView BackgroundColor="Transparent">
+            <StackLayout
+                Spacing="16">
+                <Frame
+                    BorderColor="#E1E4EC"
+                    HasShadow="False"
+                    Padding="0">
+                    <Grid
+                        Margin="16">
+                        <Grid.RowDefinitions>
+                            <RowDefinition
+                                Height="24" />
+                            <RowDefinition
+                                Height="16" />
+                            <RowDefinition
+                                Height="24" />
+                            <RowDefinition
+                                Height="16" />
+                            <RowDefinition
+                                Height="16" />
+                            <RowDefinition
+                                Height="24" />
+                            <RowDefinition
+                                Height="16" />
+                            <RowDefinition
+                                Height="16" />
+                            <RowDefinition
+                                Height="24" />
+                            <RowDefinition
+                                Height="16" />
+                            <RowDefinition
+                                Height="16" />
+                            <RowDefinition
+                                Height="24" />
+                            <RowDefinition
+                                Height="16" />
+                        </Grid.RowDefinitions>
+                        <Label
+                            Text="PERSONAL DETAILS:"
+                            FontSize="12"
+                            TextColor="#327AE5" />
+                        <Label
+                            Grid.Row="1"
+                            Text="First Name:"
+                            FontSize="10"
+                            TextColor="#A6B0BD" />
+                        <Entry
+                            Grid.Row="2"
+                            Placeholder="Matthew Jonathan"
+                            FontSize="16"
+                            PlaceholderColor="#1E2024" />
+                        <BoxView
+                            Grid.Row="3"
+                            HeightRequest="1"
+                            BackgroundColor="#E1E4EC"
+                            VerticalOptions="Center" />
+                        <Label
+                            Grid.Row="4"
+                            Text="Last Name:"
+                            FontSize="10"
+                            TextColor="#A6B0BD" />
+                        <Entry
+                            Grid.Row="5"
+                            Placeholder="Robertson"
+                            FontSize="16"
+                            PlaceholderColor="#1E2024" />
+                        <BoxView
+                            Grid.Row="6"
+                            HeightRequest="1"
+                            BackgroundColor="#E1E4EC"
+                            VerticalOptions="Center" />
+                        <Label
+                            Grid.Row="7"
+                            Text="Email Address:"
+                            FontSize="10"
+                            TextColor="#A6B0BD" />
+                        <Entry
+                            Grid.Row="8"
+                            Placeholder="matthew.j.robertson@mail.com"
+                            FontSize="16"
+                            PlaceholderColor="#1E2024" />
+                        <BoxView
+                            Grid.Row="9"
+                            HeightRequest="1"
+                            BackgroundColor="#E1E4EC"
+                            VerticalOptions="Center" />
+                        <Label
+                            Grid.Row="10"
+                            Text="Phone Number:"
+                            FontSize="10"
+                            TextColor="#A6B0BD" />
+                        <Entry
+                            Grid.Row="11"
+                            Placeholder="Enter phone number"
+                            FontSize="16"
+                            PlaceholderColor="#1E2024" />
+                        <BoxView
+                            Grid.Row="12"
+                            HeightRequest="1"
+                            BackgroundColor="#E1E4EC"
+                            VerticalOptions="Center" />
+                    </Grid>
+                </Frame>
+
+                <!--Item Second-->
+                <Frame
+                    BorderColor="#E1E4EC"
+                    HasShadow="False"
+                    Padding="0">
+                    <Grid
+                        BackgroundColor="Transparent"
+                        Margin="16">
+                        <Grid.RowDefinitions>
+                            <RowDefinition
+                                Height="24" />
+                            <RowDefinition
+                                Height="16" />
+                            <RowDefinition
+                                Height="24" />
+                            <RowDefinition
+                                Height="16" />
+                            <RowDefinition
+                                Height="16" />
+                            <RowDefinition
+                                Height="24" />
+                            <RowDefinition
+                                Height="16" />
+                            <RowDefinition
+                                Height="16" />
+                            <RowDefinition
+                                Height="24" />
+                            <RowDefinition
+                                Height="16" />
+                            <RowDefinition
+                                Height="16" />
+                            <RowDefinition
+                                Height="24" />
+                            <RowDefinition
+                                Height="16" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition
+                                Width="*" />
+                            <ColumnDefinition
+                                Width="44" />
+                        </Grid.ColumnDefinitions>
+                        <Label
+                            Text="SHIPPING DETAILS:"
+                            FontSize="12"
+                            TextColor="#327AE5" />
+                        <Label
+                            Grid.Row="1"
+                            Text="First Name:"
+                            FontSize="10"
+                            TextColor="#A6B0BD" />
+                        <Label
+                            Grid.Row="2"
+                            Text="Choose Country"
+                            FontSize="16"
+                            TextColor="#1E2024" />
+                        <Button
+                            ImageSource="ic_arrowRight"
+                            Grid.Column="1"
+                            VerticalOptions="Center"
+                            Grid.Row="1"
+                            Grid.RowSpan="2" />
+                        <BoxView
+                            Grid.ColumnSpan="2"
+                            Grid.Row="3"
+                            HeightRequest="1"
+                            BackgroundColor="#E1E4EC"
+                            VerticalOptions="Center" />
+                        <Label
+                            Grid.Row="4"
+                            Text="Last Name:"
+                            FontSize="10"
+                            TextColor="#A6B0BD" />
+                        <Label
+                            Grid.Row="5"
+                            Text="64 Rosewood Street, Building C"
+                            FontSize="16"
+                            TextColor="#1E2024" />
+                        <BoxView
+                            Grid.ColumnSpan="2"
+                            Grid.Row="6"
+                            HeightRequest="1"
+                            BackgroundColor="#E1E4EC"
+                            VerticalOptions="Center" />
+                        <Label
+                            Grid.Row="7"
+                            Text="Email Address:"
+                            FontSize="10"
+                            TextColor="#A6B0BD" />
+                        <Label
+                            Grid.Row="8"
+                            Text="Enter Postal Code"
+                            FontSize="16"
+                            TextColor="#1E2024" />
+                        <BoxView
+                            Grid.ColumnSpan="2"
+                            Grid.Row="9"
+                            HeightRequest="1"
+                            BackgroundColor="#E1E4EC"
+                            VerticalOptions="Center" />
+                        <Label
+                            Grid.Row="10"
+                            Text="Phone Number:"
+                            FontSize="10"
+                            TextColor="#A6B0BD" />
+                        <Label
+                            Grid.Row="11"
+                            Text="Choose City"
+                            FontSize="16"
+                            TextColor="#1E2024" />
+                        <Button
+                            ImageSource="ic_arrowRight"
+                            Grid.Column="1"
+                            Grid.Row="10"
+                            VerticalOptions="Center"
+                            Grid.RowSpan="2" />
+                        <BoxView
+                            Grid.Row="12"
+                            Grid.ColumnSpan="2"
+                            HeightRequest="1"
+                            BackgroundColor="#E1E4EC"
+                            VerticalOptions="Center" />
+                    </Grid>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+        <!--Footer-->
+        <Frame
+            IsVisible="{Binding IsVisiblePersonalAndShipping}"
+            Grid.Row="1"
+            BackgroundColor="Transparent"
+            Padding="0"
+            HasShadow="False">
+            <Button
+                Margin="16"
+                Text="SAVE AND SHIP HERE"
+                TextColor="#327AE5"
+                BorderWidth="1"
+                BorderColor="#327AE5"
+                FontSize="12" />
+        </Frame>
+    </Grid>
+</ContentView>

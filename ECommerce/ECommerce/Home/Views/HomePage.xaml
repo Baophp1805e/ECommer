@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:iOS="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    iOS:Page.UseSafeArea="False"
+    xmlns:forms="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+    BackgroundColor="{StaticResource BackgroundColor}"
+    x:Name="root"
+    xmlns:model="clr-namespace:ECommerce.Home.Models"
+    x:Class="ECommerce.Home.Views.HomePage">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition
+                    Height="40" />
+                <RowDefinition
+                    Height="*" />
+            </Grid.RowDefinitions>
+            <Frame
+                Padding="0"
+                CornerRadius="0"
+                HasShadow="False">
+                <StackLayout
+                    Orientation="Horizontal"
+                    Spacing="8">
+                    <Button
+                        TextColor="#A6B0BD"
+                        BackgroundColor="Transparent"
+                        Text="Most Popular"
+                        WidthRequest="94"
+                        Margin="16,0,0,0"
+                        Command="{Binding BtnCommand}"
+                        CommandParameter="{Static model:PickupButton.MostPopular}"
+                        FontSize="15"
+                        HorizontalOptions="Center">
+                        <Button.Triggers>
+                            <DataTrigger
+                                TargetType="Button"
+                                Binding="{Binding Pick}"
+                                Value="{Static model:PickupButton.MostPopular}">
+                                <Setter
+                                    Property="TextColor"
+                                    Value="#000000" />
+                            </DataTrigger>
+                        </Button.Triggers>
+                    </Button>
+                    <!--<Label
+                        TextColor="Gray"
+                        BackgroundColor="Transparent"
+                        Text="Most Popular"
+                        WidthRequest="94"
+                        Margin="16,0,0,0"
+                    
+                        FontSize="15"
+                        HorizontalOptions="Center">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer     Command="{Binding BtnCommand}"
+                                                     CommandParameter="{Static model:PickupButton.Btn1}"/>
+                        </Label.GestureRecognizers>
+                        <Label.Triggers>
+                            <DataTrigger TargetType="Label"
+                                         Binding="{Binding Pick}"
+                                         Value="{Static model:PickupButton.Btn1}" >
+                                <Setter
+                                    Property="TextColor"
+                                    Value="#000000"/>
+
+
+                            </DataTrigger>
+                        </Label.Triggers>
+                    </Label>-->
+                    <Button
+                        BackgroundColor="Transparent"
+                        Text="Featured"
+                        FontSize="15"
+                        HorizontalOptions="Center"
+                        WidthRequest="94"
+                        Command="{Binding BtnCommand}"
+                        CommandParameter="{Static model:PickupButton.Featured}"
+                        TextColor="#A6B0BD">
+                        <Button.Triggers>
+                            <DataTrigger
+                                TargetType="Button"
+                                Binding="{Binding Pick}"
+                                Value="{Static model:PickupButton.Featured}">
+                                <Setter
+                                    Property="TextColor"
+                                    Value="#000000" />
+                            </DataTrigger>
+                        </Button.Triggers>
+                    </Button>
+                    <Button
+                        Command="{Binding BtnCommand}"
+                        CommandParameter="{Static model:PickupButton.TopSellers}"
+                        BackgroundColor="Transparent"
+                        Text="Top Sellers"
+                        FontSize="15"
+                        HorizontalOptions="Center"
+                        WidthRequest="94"
+                        TextColor="#A6B0BD">
+                        <Button.Triggers>
+                            <DataTrigger
+                                TargetType="Button"
+                                Binding="{Binding Pick}"
+                                Value="{Static model:PickupButton.TopSellers}">
+                                <Setter
+                                    Property="TextColor"
+                                    Value="#000000" />
+                            </DataTrigger>
+                        </Button.Triggers>
+                    </Button>
+                    <Button
+                        Command="{Binding BtnCommand}"
+                        CommandParameter="{Static model:PickupButton.Following}"
+                        BackgroundColor="Transparent"
+                        Text="Following"
+                        FontSize="15"
+                        HorizontalOptions="Center"
+                        WidthRequest="94"
+                        TextColor="#A6B0BD">
+                        <Button.Triggers>
+                            <DataTrigger
+                                TargetType="Button"
+                                Binding="{Binding Pick}"
+                                Value="{Static model:PickupButton.Following}">
+                                <Setter
+                                    Property="TextColor"
+                                    Value="#000000" />
+                            </DataTrigger>
+                        </Button.Triggers>
+                    </Button>
+                </StackLayout>
+            </Frame>
+            <ListView
+                SeparatorVisibility="None"
+                Grid.Row="1"
+                HasUnevenRows="true"
+                ItemsSource="{Binding ListStore}"
+                BackgroundColor="Transparent">
+                <!--<ListView.ItemsSource>
+                    <x:Array
+                        Type="{x:Type x:String}">
+                        <x:String>Baboon</x:String>
+                        <x:String>Capuchin Monkey</x:String>
+                    </x:Array>
+                </ListView.ItemsSource>-->
+                <ListView.Header>
+                    <StackLayout
+                        HeightRequest="16">
+                    </StackLayout>
+                </ListView.Header>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame
+                                Margin="16,0,16,16"
+                                Padding="0"
+                                HasShadow="False">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition
+                                            Height="120" />
+                                        <RowDefinition
+                                            Height="40" />
+                                        <RowDefinition
+                                            Height="*" />
+                                        <RowDefinition
+                                            Height="8" />
+                                        <RowDefinition
+                                            Height="*" />
+                                        <RowDefinition
+                                            Height="*" />
+                                        <RowDefinition
+                                            Height="*" />
+                                        <RowDefinition
+                                            Height="48" />
+                                        <RowDefinition
+                                            Height="16" />
+                                    </Grid.RowDefinitions>
+                                    <forms:CachedImage
+                                        Aspect="AspectFill"
+                                        Source="{Binding BgShop}" />
+                                    <Frame
+                                        Padding="0"
+                                        Grid.RowSpan="2"
+                                        BackgroundColor="Transparent"
+                                        Margin="0,0,0,4"
+                                        CornerRadius="40"
+                                        HorizontalOptions="Center"
+                                        VerticalOptions="EndAndExpand"
+                                        HasShadow="False">
+                                        <forms:CachedImage
+                                            Source="{Binding Avatar}"
+                                            WidthRequest="80"
+                                            HeightRequest="80">
+                                            <forms:CachedImage.GestureRecognizers>
+                                                <TapGestureRecognizer
+                                                    Command="{Binding Source={x:Reference root}, Path=BindingContext.TapAvatarCmd}"
+                                                    CommandParameter="{Binding .}" />
+                                            </forms:CachedImage.GestureRecognizers>
+                                        </forms:CachedImage>
+                                    </Frame>
+
+                                    <Label
+                                        Text="{Binding NameStoreOwner}"
+                                        Grid.Row="2"
+                                        FontSize="20"
+                                        HorizontalOptions="Center" />
+                                    <Label
+                                        Text="{Binding Address}"
+                                        TextColor="#A6B0BD"
+                                        Grid.Row="3"
+                                        HorizontalOptions="Center"
+                                        FontSize="10" />
+                                    <BoxView
+                                        HeightRequest="1"
+                                        HorizontalOptions="Center"
+                                        WidthRequest="64"
+                                        Grid.Row="4"
+                                        VerticalOptions="Center"
+                                        BackgroundColor="#E1E4EC" />
+                                    <forms:CachedImage
+                                        Source="ic_rating"
+                                        Grid.Row="5"
+                                        HorizontalOptions="Center" />
+                                    <Label
+                                        Text="{Binding Review}"
+                                        HorizontalOptions="Center"
+                                        TextColor="#A6B0BD"
+                                        FontSize="10"
+                                        Grid.Row="6" />
+                                    <Button
+                                        BackgroundColor="Transparent"
+                                        Text="FOLLOW STORE"
+                                        TextColor="#327AE5"
+                                        BorderColor="#327AE5"
+                                        Grid.Row="7"
+                                        Margin="16,0"
+                                        BorderWidth="1" />
+
+                                </Grid>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,231 @@
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/Realm.dll.config
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/ECommerce.iOS.exe
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/ECommerce.iOS.pdb
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/AsyncAwaitBestPractices.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/AsyncAwaitBestPractices.pdb
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/AsyncAwaitBestPractices.MVVM.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/AsyncAwaitBestPractices.MVVM.pdb
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/DryIoc.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.pdb
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/Nito.AsyncEx.Context.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/Nito.AsyncEx.Tasks.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/Nito.Disposables.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/Nito.Disposables.pdb
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/Plugin.Badge.Abstractions.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/Plugin.Badge.Abstractions.pdb
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/Plugin.Badge.iOS.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/Plugin.Multilingual.Abstractions.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/Plugin.Multilingual.Abstractions.pdb
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/Plugin.Multilingual.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/Prism.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/Prism.pdb
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/Prism.dll.mdb
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/Prism.DryIoc.Forms.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/Prism.DryIoc.Forms.pdb
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/Prism.Forms.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/Prism.Forms.pdb
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/Realm.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/Realm.pdb
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/Remotion.Linq.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/System.Collections.Immutable.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/System.IO.Compression.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/System.Net.Http.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/System.Runtime.CompilerServices.Unsafe.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/System.Security.Cryptography.Encoding.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/System.Security.Cryptography.X509Certificates.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/WebP.Touch.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/Plugin.DeviceInfo.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/Plugin.DeviceInfo.pdb
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.pdb
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Platform.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Platform.pdb
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.pdb
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Forms.Platform.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Forms.Platform.pdb
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Forms.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Forms.pdb
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Transformations.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Transformations.pdb
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.pdb
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.pdb
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/ar/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/ca/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/cs/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/da/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/de/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/el/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/es/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/fi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/fr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/he/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/hi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/hr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/hu/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/id/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/it/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/ja/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/ko/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/ms/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/nb/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/nl/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/pl/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/pt/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/ro/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/ru/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/sk/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/sv/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/th/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/tr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/uk/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/vi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.PancakeView.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/ZXing.Net.Mobile.Core.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/ZXingNetMobile.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/zxing.portable.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/ZXing.Net.Mobile.Forms.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/ZXing.Net.Mobile.Forms.iOS.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/ECommerce.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/ECommerce.pdb
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.pdb
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/ja-JP/ECommerce.resources.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/ko/ECommerce.resources.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/bin/iPhoneSimulator/Debug/en/ECommerce.resources.dll
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/ECommerce.iOS.csproj.CoreCompileInputs.cache
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/ECommerce.iOS.csproj.Fody.CopyLocal.cache
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/XamlC.stamp
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/ECommerce.iOS.csproj.CopyComplete
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/ECommerce.iOS.exe
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/ECommerce.iOS.pdb
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/ECommerce.iOS.csprojAssemblyReference.cache
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/ibtool/_BundleResourceWithLogicalName.items
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/actool/_PartialAppManifest.items
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/actool/_BundleResourceWithLogicalName.items
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/coremlc/_PartialAppManifest.items
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/coremlc/_BundleResourceWithLogicalName.items
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/Splash.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/Splash@2x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/Splash@3x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_fb.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_fb@2x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_fb@3x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_background_login.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_background_login@2x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_background_login@3x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_bg_login_details.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_bg_login_details@2x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_bg_login_details@3x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/forgot_pass_icon.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/forgot_pass_icon@2x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/forgot_pass_icon@3x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_logo_login.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_logo_login@2x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_logo_login@3x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_close_btn.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_close_btn@2x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_close_btn@3x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_loading@3x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_loading@2x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_loading.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_logo_spalsh@3x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_logo_spalsh@2x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_logo_spalsh.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_bg_shop2@3x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_bg_shop2@2x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_bg_shop2.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_rating@2x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_rating@3x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_rating.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_avatar_shop2@3x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_avatar_shop2@2x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_avatar_shop2.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_bg_home@3x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_bg_home@2x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_bg_home.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_avatar@3x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_avatar@2x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_avatar.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_profile@2x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_profile@3x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_profile.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_tag@2x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_tag@3x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_tag.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_shoppingcart@2x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_shoppingcart@3x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_shoppingcart.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_deal@3x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_deal@2x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_deal.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_home@3x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_home@2x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_home.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_search@2x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_search@3x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_search.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_headphone@2x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_headphone@3x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_headphone.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_close_navi@3x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_close_navi.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_close_navi@2x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/btn_right@3x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/btn_right@2x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/btn_right.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_headphone2@2x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_headphone2@3x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_headphone2.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_headphone1@3x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_headphone1@2x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_headphone1.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_close_home@3x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_close_home@2x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_close_home.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_addCart@3x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_addCart@2x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_addCart.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_checkmark@3x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_checkmark@2x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_checkmark.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_option_3dot@3x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_option_3dot@2x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_option_3dot.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_deal4@2x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_deal4@3x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_deal4.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_deal3@2x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_deal3@3x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_deal3.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_deal2@2x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_deal2@3x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_deal2.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_deal1@2x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_deal1@3x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_deal1.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_more@3x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_more@2x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_more.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_arrow@3x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_arrow@2x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_arrow.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_cover_profile@2x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_cover_profile@3x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_cover_profile.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_arrowRight@3x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_arrowRight@2x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_arrowRight.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_cart.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_cart@2x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_cart@3x.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/delete.png
+/Users/pro/EdutalkProject/Ecommer/MyEcommer/ECommerce/ECommerce/ECommerce.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TabbedPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:views="clr-namespace:ECommerce.Home.Views"
+    xmlns:plugin="clr-namespace:Plugin.Badge.Abstractions;assembly=Plugin.Badge.Abstractions"
+    x:Class="ECommerce.Home.Views.HomeTabbedPage">
+    <!--Pages can be added as references or inline-->
+    <NavigationPage.TitleView>
+        <Grid
+            x:Name="grid"
+            RowSpacing="0"
+            ColumnSpacing="2"
+            Padding="0"
+            BackgroundColor="Transparent">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition
+                    Width="44" />
+                <ColumnDefinition
+                    Width="*" />
+                <ColumnDefinition
+                    Width="44" />
+            </Grid.ColumnDefinitions>
+            <Label
+                Grid.Column="1"
+                x:Name="txtTitle"
+                HorizontalOptions="Center"
+                TextColor="White"
+                VerticalOptions="Center"
+                FontSize="16" />
+            <Button
+                BackgroundColor="Transparent"
+                x:Name="btnNext"
+                TextColor="White"
+                FontSize="12"
+                Text="Next"
+                Grid.Column="2"
+                Command="{Binding TapNext}" />
+
+            <Button
+                BackgroundColor="Transparent"
+                x:Name="btnSearch"
+                TextColor="White"
+                FontSize="12"
+                ImageSource="ic_search"
+                Grid.Column="2"
+                Command="{Binding TapSearchCmd}" />
+        </Grid>
+    </NavigationPage.TitleView>
+
+    <!--<TabbedPage.ToolbarItems > 
+        <ToolbarItem x:Name="toolbar" Icon="ic_search.png" Command="{Binding TapSearchCmd}"/>
+    </TabbedPage.ToolbarItems>-->
+    <TabbedPage.Children>
+        <views:HomePage
+            IconImageSource="ic_home"
+            Title="HOME" />
+        <views:DealsPage
+            IconImageSource="ic_deal"
+            Title="DEALS" />
+        <views:ShoppingCartPage
+            Title=""
+            plugin:TabBadge.BadgeText="2"
+            plugin:TabBadge.BadgeColor="Red"
+            IconImageSource="ic_cart" />
+        <views:TagsPage
+            IconImageSource="ic_tag"
+            Title="TAGS" />
+        <views:ProfilePage
+            IconImageSource="ic_profile"
+            Title="PROFILE" />
+    </TabbedPage.Children>
+</TabbedPage>

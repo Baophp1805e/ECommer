@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ResourceDictionary
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="ECommerce.Common.Styles.Dimensions">
+    <OnPlatform
+        x:TypeArguments="x:Double"
+        x:Key="FontSizeXXXLarge"
+        iOS="39"
+        Android="39" />
+    <OnPlatform
+        x:TypeArguments="x:Double"
+        x:Key="FontSizeXXLarge"
+        iOS="31"
+        Android="31" />
+    <OnPlatform
+        x:TypeArguments="x:Double"
+        x:Key="FontSizeXLarge"
+        iOS="25"
+        Android="25" />
+    <OnPlatform
+        x:TypeArguments="x:Double"
+        x:Key="FontSizeLarge"
+        iOS="23"
+        Android="23" />
+    <OnPlatform
+        x:TypeArguments="x:Double"
+        x:Key="FontSizeSemiLarge"
+        iOS="19"
+        Android="19" />
+    <OnPlatform
+        x:TypeArguments="x:Double"
+        x:Key="FontSizeTitle"
+        iOS="17"
+        Android="17" />
+    <OnPlatform
+        x:TypeArguments="x:Double"
+        x:Key="FontSizeNormal"
+        iOS="15"
+        Android="15" />
+    <OnPlatform
+        x:TypeArguments="x:Double"
+        x:Key="FontSizeMedium"
+        iOS="14"
+        Android="14" />
+    <OnPlatform
+        x:TypeArguments="x:Double"
+        x:Key="FontSizeSmall"
+        iOS="13"
+        Android="13" />
+    <OnPlatform
+        x:TypeArguments="x:Double"
+        x:Key="FontSizeXSmall"
+        iOS="11"
+        Android="11" />
+    <OnPlatform
+        x:TypeArguments="x:Double"
+        x:Key="FontSizeTiny"
+        iOS="10"
+        Android="10" />
+    <OnPlatform
+        x:TypeArguments="x:Double"
+        x:Key="ButtonHeight"
+        iOS="48"
+        Android="48" />
+    <OnPlatform
+        x:TypeArguments="x:Int32"
+        x:Key="ButtonRadius"
+        iOS="24"
+        Android="24" />
+    <x:Double
+        x:Key="SmallIconSize">12</x:Double>
+    <x:Double
+        x:Key="MediumIconSize">16</x:Double>
+    <x:Double
+        x:Key="DefaultIconSize">24</x:Double>
+    <x:Double
+        x:Key="SeparatorSize">1</x:Double>
+</ResourceDictionary>

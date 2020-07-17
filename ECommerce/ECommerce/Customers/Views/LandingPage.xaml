@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:iOS="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    iOS:Page.UseSafeArea="False"
+    NavigationPage.HasNavigationBar="False"
+    x:Class="ECommerce.Customers.Views.LandingPage">
+    <ContentPage.Content>
+        <Grid RowSpacing="0"
+              ColumnSpacing="0">
+            <Grid.RowDefinitions>
+                <RowDefinition
+                    Height="*" />
+                <RowDefinition
+                    Height="48" />
+                <RowDefinition
+                    Height="48" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition
+                    Width="*" />
+                <ColumnDefinition
+                    Width="*" />
+            </Grid.ColumnDefinitions>
+            <StackLayout x:Name="imageQrCode">
+
+            </StackLayout>
+            <!--<Image
+                Aspect="AspectFill"
+                Grid.ColumnSpan="2"
+                x:Name="imageQrCode"
+                Grid.RowSpan="3" />-->
+            <Frame
+                Grid.Row="1"
+                Grid.ColumnSpan="2"
+                Padding="0"
+                HasShadow="False"
+                BackgroundColor="#77A2E9">
+                <StackLayout
+                    HorizontalOptions="Center"
+                    Orientation="Horizontal"
+                    Grid.ColumnSpan="2">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding LoginWithFBCmd}" />
+                    </StackLayout.GestureRecognizers>
+                    <Image
+                        Source="ic_fb"
+                        WidthRequest="20"
+                        HeightRequest="20"
+                        VerticalOptions="Center"
+                        HorizontalOptions="Start" />
+                    <Label
+                        VerticalOptions="Center"
+                        Text="CONNECT WITH FACEBOOK"
+                        FontSize="16"
+                        TextColor="White" />
+                </StackLayout>
+            </Frame>
+            <BoxView
+                HeightRequest="0.5"
+                Grid.Row="1"
+                Grid.ColumnSpan="2"
+                VerticalOptions="End"
+                BackgroundColor="White" />
+                <Button Text="LOGIN"
+                        BackgroundColor="#77A2E9"
+                        Command="{Binding TapLoginCmd}"
+                        Grid.Row="2"
+                        CornerRadius="0"
+                        TextColor="White"/>
+                <BoxView WidthRequest="0.5"
+                         HeightRequest="56"
+                         BackgroundColor="White"
+                         Grid.Row="2"
+                         HorizontalOptions="End"/>
+                <Button Text="SIGN UP"
+                        Command="{Binding TapSignupCmd}"
+                        Grid.Column="1"
+                        CornerRadius="0"
+                        BackgroundColor="#77A2E9"
+                        Grid.Row="2"
+                        TextColor="White"/>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

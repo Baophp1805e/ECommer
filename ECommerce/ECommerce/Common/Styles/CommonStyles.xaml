@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ResourceDictionary
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="ECommerce.Common.Styles.CommonStyles"
+    xmlns:styles="clr-namespace:ECommerce.Common.Styles">
+    <ResourceDictionary.MergedDictionaries>
+        <styles:Colors />
+        <styles:Dimensions />
+        <styles:Strings />
+    </ResourceDictionary.MergedDictionaries>
+    <Style
+        x:Key="Separator"
+        TargetType="View">
+        <Setter
+            Property="BackgroundColor"
+            Value="{StaticResource SeparatorColor}" />
+    </Style>
+    <Style
+        x:Key="SeparatorHorizontal"
+        TargetType="View"
+        BasedOn="{StaticResource Separator}">
+        <Setter
+            Property="HeightRequest"
+            Value="{StaticResource SeparatorSize}" />
+        <Setter
+            Property="VerticalOptions"
+            Value="Start" />
+    </Style>
+    <Style
+        x:Key="SeparatorHorizontalEnd"
+        TargetType="View"
+        BasedOn="{StaticResource SeparatorHorizontal}">
+        <Setter
+            Property="VerticalOptions"
+            Value="End" />
+    </Style>
+    <!--End Style for Separator-->
+    <!--Start Style for Button-->
+    <Style
+        x:Key="ButtonBase"
+        TargetType="Button">
+        <Setter
+            Property="HeightRequest"
+            Value="{StaticResource ButtonHeight}" />
+        <Setter
+            Property="VerticalOptions"
+            Value="Center" />
+    </Style>
+    <Style
+        x:Key="ButtonPrimary"
+        TargetType="Button"
+        BasedOn="{StaticResource ButtonBase}">
+        <Setter
+            Property="BackgroundColor"
+            Value="{StaticResource PrimaryColor}" />
+        <Setter
+            Property="FontAttributes"
+            Value="Bold" />
+        <Setter
+            Property="CornerRadius"
+            Value="{StaticResource ButtonRadius}" />
+        <Setter
+            Property="FontSize"
+            Value="{StaticResource FontSizeNormal}" />
+    </Style>
+    <Style
+        x:Key="ButtonSecondary"
+        TargetType="Button"
+        BasedOn="{StaticResource ButtonBase}">
+        <Setter
+            Property="FontAttributes"
+            Value="Bold" />
+    </Style>
+</ResourceDictionary>

@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ResourceDictionary
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="ECommerce.Common.Styles.LabelStyles"
+    xmlns:styles="clr-namespace:ECommerce.Common.Styles">
+    <ResourceDictionary.MergedDictionaries>
+        <styles:Colors />
+        <styles:Dimensions />
+        <styles:Strings />
+    </ResourceDictionary.MergedDictionaries>
+
+
+    <Style
+        x:Key="LabelBase"
+        TargetType="Label">
+        <Setter
+            Property="TextColor"
+            Value="{StaticResource TextPrimaryColor}" />
+    </Style>
+    <!--font size large-->
+    <Style
+        x:Key="LabelLarge"
+        TargetType="Label"
+        BasedOn="{StaticResource LabelBase}">
+        <Setter
+            Property="FontSize"
+            Value="{StaticResource FontSizeLarge}" />
+    </Style>
+    <Style
+        x:Key="LabelLargeBold"
+        TargetType="Label"
+        BasedOn="{StaticResource LabelLarge}">
+        <Setter
+            Property="FontAttributes"
+            Value="Bold" />
+    </Style>
+    <Style
+        x:Key="Title"
+        TargetType="Label"
+        BasedOn="{StaticResource LabelLargeBold}">
+        <Setter
+            Property="TextColor"
+            Value="{StaticResource TextSecondaryColor}" />
+        <Setter
+            Property="HorizontalTextAlignment"
+            Value="Center" />
+    </Style>
+    <!--font size semi large-->
+    <Style
+        x:Key="LabelSemiLarge"
+        TargetType="Label"
+        BasedOn="{StaticResource LabelBase}">
+        <Setter
+            Property="FontSize"
+            Value="{StaticResource FontSizeSemiLarge}" />
+    </Style>
+    <Style
+        x:Key="LabelSemiLargeBold"
+        TargetType="Label"
+        BasedOn="{StaticResource LabelSemiLarge}">
+        <Setter
+            Property="FontAttributes"
+            Value="Bold" />
+    </Style>
+    <!--font size title-->
+    <Style
+        x:Key="LabelTitle"
+        TargetType="Label"
+        BasedOn="{StaticResource LabelBase}">
+        <Setter
+            Property="FontSize"
+            Value="{StaticResource FontSizeTitle}" />
+    </Style>
+    <Style
+        x:Key="LabelTitleBold"
+        TargetType="Label"
+        BasedOn="{StaticResource LabelTitle}">
+        <Setter
+            Property="FontAttributes"
+            Value="Bold" />
+    </Style>
+    <!--font size normal-->
+    <Style
+        x:Key="LabelNormal"
+        TargetType="Label"
+        BasedOn="{StaticResource LabelBase}">
+        <Setter
+            Property="FontSize"
+            Value="{StaticResource FontSizeNormal}" />
+    </Style>
+    <Style
+        x:Key="LabelNormalBold"
+        TargetType="Label"
+        BasedOn="{StaticResource LabelNormal}">
+        <Setter
+            Property="FontAttributes"
+            Value="Bold" />
+    </Style>
+    <!--font size small-->
+    <Style
+        x:Key="LabelSmall"
+        TargetType="Label"
+        BasedOn="{StaticResource LabelBase}">
+        <Setter
+            Property="FontSize"
+            Value="{StaticResource FontSizeSmall}" />
+    </Style>
+    <Style
+        x:Key="LabelSmallWhite"
+        TargetType="Label"
+        BasedOn="{StaticResource LabelBase}">
+        <Setter
+            Property="FontSize"
+            Value="{StaticResource FontSizeSmall}" />
+        <Setter
+            Property="TextColor"
+            Value="White" />
+    </Style>
+    <Style
+        x:Key="LabelSmallBold"
+        TargetType="Label"
+        BasedOn="{StaticResource LabelSmall}">
+        <Setter
+            Property="FontAttributes"
+            Value="Bold" />
+    </Style>
+    <!--font size x small-->
+    <Style
+        x:Key="LabelXSmall"
+        TargetType="Label"
+        BasedOn="{StaticResource LabelBase}">
+        <Setter
+            Property="FontSize"
+            Value="{StaticResource FontSizeXSmall}" />
+    </Style>
+    <Style
+        x:Key="LabelTiny"
+        TargetType="Label"
+        BasedOn="{StaticResource LabelBase}">
+        <Setter
+            Property="FontSize"
+            Value="{StaticResource FontSizeTiny}" />
+    </Style>
+    <Style
+        x:Key="LabelXSmallWhite"
+        TargetType="Label"
+        BasedOn="{StaticResource LabelBase}">
+        <Setter
+            Property="TextColor"
+            Value="White" />
+    </Style>
+    <Style
+        x:Key="LabelXSmallBold"
+        TargetType="Label"
+        BasedOn="{StaticResource LabelBase}">
+        <Setter
+            Property="FontAttributes"
+            Value="Bold" />
+    </Style>
+
+    <!--label medium-->
+    <Style
+        x:Key="LabelMedium"
+        TargetType="Label"
+        BasedOn="{StaticResource LabelBase}">
+        <Setter
+            Property="FontSize"
+            Value="{StaticResource FontSizeMedium}" />
+    </Style>
+    <Style
+        x:Key="LabelMediumBold"
+        TargetType="Label"
+        BasedOn="{StaticResource LabelMedium}">
+        <Setter
+            Property="FontAttributes"
+            Value="Bold" />
+    </Style>
+</ResourceDictionary>

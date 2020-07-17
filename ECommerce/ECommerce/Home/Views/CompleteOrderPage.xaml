@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:views="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+    xmlns:page="clr-namespace:ECommerce.Home.CarouselView"
+    xmlns:model="clr-namespace:ECommerce.Home.Models"
+    xmlns:converters="clr-namespace:ECommerce.Common.Converters"
+    Title="Complete Order"
+    BackgroundColor="#F8F8F8"
+    x:Class="ECommerce.Home.Views.CompleteOrderPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:SwipeConverter
+                x:Key="SwipeConvert" />
+            <converters:SwipeConverter2
+                x:Key="SwipeConvert2" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <NavigationPage.TitleView>
+        <Grid
+            RowSpacing="0"
+            ColumnSpacing="0"
+            Padding="0"
+            BackgroundColor="Transparent">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition
+                    Width="0" />
+                <ColumnDefinition
+                    Width="*" />
+                <ColumnDefinition
+                    Width="44" />
+            </Grid.ColumnDefinitions>
+            <Label
+                Grid.Column="1"
+                Text="Complete Order"
+                TextColor="White"
+                VerticalOptions="Center"
+                FontSize="18"
+                HorizontalOptions="Center" />
+            <Button
+                BackgroundColor="Transparent"
+                Grid.Column="2"
+                Command="{Binding TapNext}"
+                Text="Next"
+                TextColor="White" />
+        </Grid>
+    </NavigationPage.TitleView>
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition
+                    Height="48" />
+                <RowDefinition
+                    Height="*" />
+            </Grid.RowDefinitions>
+            <Frame
+                Padding="0"
+                CornerRadius="0"
+                HasShadow="False">
+                <StackLayout
+                    HorizontalOptions="Center"
+                    Orientation="Horizontal"
+                    Spacing="16">
+                    <Button
+                        BackgroundColor="Transparent"
+                        Text="Personal &amp; Shipping Details"
+                        WidthRequest="200"
+                        Margin="16,0,0,0"
+                        FontSize="15"
+                        HorizontalOptions="Center"
+                        TextColor="{Binding Position, Converter={StaticResource SwipeConvert}}" />
+                    <Button
+                        BackgroundColor="Transparent"
+                        Text="Review &amp; Purchase"
+                        FontSize="15"
+                        HorizontalOptions="Center"
+                        WidthRequest="160"
+                        TextColor="{Binding Position, Converter={StaticResource SwipeConvert2}}"/>
+                    <!--<Button
+                        x:Name="btn1"
+                        Text="Personal &amp; Shipping Details"
+                        WidthRequest="200"
+                        Margin="16,0,0,0"
+                        FontSize="15"
+                        Command="{Binding StatusViewComplete}"
+                        HorizontalOptions="Center">
+                        <Button.Triggers>
+                            <DataTrigger
+                                TargetType="Button"
+                                Binding="{Binding statusView}"
+                                Value="false">
+                                <Setter
+                                    Property="BackgroundColor"
+                                    Value="#dbe1e5" />
+                                <Setter
+                                    Property="TextColor"
+                                    Value="#bfcfd5" />
+                            </DataTrigger>
+                            <DataTrigger
+                                TargetType="Button"
+                                Binding="{Binding statusView}"
+                                Value="true">
+                                <Setter
+                                    Property="BackgroundColor"
+                                    Value="Red" />
+                                <Setter
+                                    Property="TextColor"
+                                    Value="#FFFFFF" />
+                            </DataTrigger>
+                        </Button.Triggers>
+
+                        <Button.Triggers>
+                            <DataTrigger
+                                TargetType="Button"
+                                Binding="{Binding ViewMethod}"
+                                Value="{Static model:ViewMethod.View1}">
+                                <Setter
+                                    Property="TextColor"
+                                    Value="{StaticResource ColorView1}" />
+                            </DataTrigger>
+                        </Button.Triggers>
+                    </Button>-->
+                    <!--<Button
+                        Text="Review &amp; Purchase"
+                        FontSize="15"
+                        HorizontalOptions="Center"
+                        Command="{Binding StatusViewComplete}"
+                        WidthRequest="160">
+                        <Button.Triggers>
+                            <DataTrigger
+                                TargetType="Button"
+                                Binding="{Binding statusView}"
+                                Value="false">
+                                <Setter
+                                    Property="BackgroundColor"
+                                    Value="#dbe1e5" />
+                                <Setter
+                                    Property="TextColor"
+                                    Value="#bfcfd5" />
+                            </DataTrigger>
+                            <DataTrigger
+                                TargetType="Button"
+                                Binding="{Binding statusView}"
+                                Value="true">
+                                <Setter
+                                    Property="BackgroundColor"
+                                    Value="Red" />
+                                <Setter
+                                    Property="TextColor"
+                                    Value="#FFFFFF" />
+                            </DataTrigger>
+                        </Button.Triggers>
+                    </Button>-->
+                    <!--<DataTrigger
+                                TargetType="Button"
+                                Binding="{Binding ViewMethod}"
+                                Value="{Static model:ViewMethod.View2}">
+                                <Setter
+                                    Property="TextColor"
+                                    Value="{StaticResource ColorView2}" />
+                            </DataTrigger>-->
+                </StackLayout>
+            </Frame>
+
+
+            <!--CarouselView-->
+            <CarouselView
+                BackgroundColor="Transparent"
+                x:Name="csView"
+                Position="{Binding Position}"
+                Grid.Row="1"
+                IsSwipeEnabled="True">
+                <CarouselView.GestureRecognizers>
+                    <SwipeGestureRecognizer
+                        Direction="Right"
+                        Command="{Binding SwipeRight}"
+                        CommandParameter="{Binding .}" />
+                    <SwipeGestureRecognizer
+                        Direction="Left"
+                        Command="{Binding SwipeLeft}"
+                        CommandParameter="{Binding .}" />
+                </CarouselView.GestureRecognizers>
+                <!--<CarouselView.ItemsSource>
+                        <x:Array
+                            Type="{x:Type ContentView}">
+                            <page:PersonalShippingDetailsPage />
+                            <page:ReviewPurchasePage />
+                        </x:Array>
+                    </CarouselView.ItemsSource>-->
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame
+                            Content="{Binding .}"
+                            BackgroundColor="Transparent">
+                        </Frame>
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
+
+            <!--Footer-->
+            <!--<Frame
+                IsVisible="{Binding IsVisiblePersonalAndShipping}"
+                Grid.Row="2"
+                BackgroundColor="Transparent"
+                Padding="0"
+                HasShadow="False">
+                <Button
+                    Margin="16"
+                    Text="SAVE AND SHIP HERE"
+                    TextColor="#327AE5"
+                    BorderWidth="1"
+                    BorderColor="#327AE5"
+                    FontSize="12" />
+            </Frame>
+
+            <Frame
+                IsVisible="{Binding IsvisibleReviewAndPurchase}"
+                Grid.Row="2"
+                BackgroundColor="Transparent"
+                Padding="0"
+                HasShadow="False">
+                <Button
+                    Margin="16"
+                    Text="PURCHASE PRODUCTS"
+                    TextColor="#327AE5"
+                    BorderWidth="1"
+                    BorderColor="#327AE5"
+                    FontSize="12" />
+            </Frame>-->
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

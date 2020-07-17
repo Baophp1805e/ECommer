@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ECommerce.Common.Styles.Colors">
+    <Color
+        x:Key="PrimaryColor">#354697</Color>
+    <Color
+        x:Key="SeparatorColor">#B9B9B9</Color>
+    <Color
+        x:Key="BackgroundColor">#F6F6F6</Color>
+    <Color
+        x:Key="SurfaceColor">#FFFFFF</Color>
+    <Color
+        x:Key="OnPrimaryColor">#FFFFFF</Color>
+    <Color
+        x:Key="OnBackgroundColor">#FFFFFF</Color>
+    <Color
+        x:Key="OnSurfaceColor">#FFFFFF</Color>
+    <Color
+        x:Key="TextPrimaryColor">#FFFFFF</Color>
+    <Color
+        x:Key="TextSecondaryColor">#FFFFFF</Color>
+    <Color
+        x:Key="LeftColor">#FCAD2E</Color>
+    <Color
+        x:Key="RightColor">#EF8D08</Color>
+
+    <!--Status Order-->
+    <Color
+        x:Key="CancelColorOrder">Red</Color>
+    <Color
+        x:Key="ActiveColorOrder">#28BF4C</Color>
+     <!--Status CaraseView-->
+    <Color
+        x:Key="ColorView1">Black</Color>
+    <Color
+        x:Key="ColorView2">Gray</Color>
+
+</ResourceDictionary>

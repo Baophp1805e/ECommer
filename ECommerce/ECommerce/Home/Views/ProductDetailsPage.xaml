@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+    xmlns:ffimage="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+    xmlns:viewmodels="clr-namespace:ECommerce.Home.ViewModels"
+    x:Class="ECommerce.Home.Views.ProductDetailsPage">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition
+                    Height="300" />
+                <RowDefinition
+                    Height="24" />
+                <RowDefinition
+                    Height="24" />
+                <RowDefinition
+                    Height="16" />
+                <RowDefinition
+                    Height="*" />
+                <RowDefinition
+                    Height="48" />
+                <RowDefinition
+                    Height="32" />
+                <RowDefinition
+                    Height="68" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition
+                    Width="*" />
+                <ColumnDefinition
+                    Width="116" />
+            </Grid.ColumnDefinitions>
+            <!--card collection-->
+            <StackLayout
+                Grid.ColumnSpan="2"
+                Margin="10">
+                <CarouselView
+                    ItemsSource="{Binding ProductModel.ImageArray}"
+                    IndicatorView="indicatorView">
+                    <CarouselView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout>
+                                <Frame
+                                    HasShadow="False"
+                                    CornerRadius="5"
+                                    HeightRequest="200"
+                                    HorizontalOptions="CenterAndExpand"
+                                    VerticalOptions="CenterAndExpand">
+                                    <StackLayout>
+                                        <ffimage:CachedImage
+                                            Source="{Binding Image}"
+                                            Aspect="AspectFill"
+                                            HeightRequest="150"
+                                            WidthRequest="150"
+                                            HorizontalOptions="Center" />
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </DataTemplate>
+                    </CarouselView.ItemTemplate>
+                </CarouselView>
+                <IndicatorView
+                    x:Name="indicatorView"
+                    MaximumVisible="3"
+                    Margin="0,0,0,40"
+                    IndicatorColor="LightGray"
+                    SelectedIndicatorColor="DarkGray"
+                    HorizontalOptions="Center" />
+            </StackLayout>
+            <Label
+                Margin="32,0,0,0"
+                Text="{Binding ProductModel.NameProduct}"
+                FontSize="20"
+                TextColor="#1E2024"
+                Grid.Row="1" />
+            <Label
+                Margin="32,0,0,0"
+                VerticalOptions="Start"
+                Text="{Binding ProductModel.Desmini}"
+                TextColor="#A6B0BD"
+                FontSize="10"
+                Grid.Row="2" />
+            <Label
+                Text="{Binding ProductModel.Price}"
+                Margin="0,16,32,0"
+                Grid.RowSpan="2"
+                Grid.Row="1"
+                FontSize="20"
+                TextColor="#1E2024"
+                Grid.Column="1" />
+            <BoxView
+                Margin="32,0"
+                Grid.ColumnSpan="2"
+                HeightRequest="1"
+                BackgroundColor="#E1E4EC"
+                Grid.Row="3"
+                VerticalOptions="Center" />
+            <StackLayout
+                Orientation="Horizontal"
+                Grid.Row="4"
+                VerticalOptions="Start"
+                Margin="32,8,32,0"
+                Grid.ColumnSpan="2">
+                <Label
+                    FontSize="12"
+                    TextColor="#A6B0BD"
+                    MaxLines="2"
+                    LineBreakMode="TailTruncation"
+                    Text="{Binding ProductModel.Description}" />
+                <Button
+                    BackgroundColor="Transparent"
+                    Text="See More"
+                    FontSize="12"
+                    TextColor="#327AE5" />
+            </StackLayout>
+
+
+
+            <StackLayout
+                Grid.ColumnSpan="2"
+                Orientation="Horizontal"
+                Grid.Row="5"
+                HorizontalOptions="Center"
+                Spacing="16">
+                <Button
+                    BackgroundColor="Transparent"
+                    WidthRequest="150"
+                    Command="{Binding TapAsk}"
+                    Text="ASK A QUESTION"
+                    FontSize="10"
+                    BorderColor="#327AE5"
+                    BorderWidth="1" />
+                <Button
+                    WidthRequest="150"
+                    Command="{Binding TapPurchaseCmd}"
+                    Text="PURCHASE"
+                    FontSize="10"
+                    TextColor="White"
+                    BackgroundColor="#327AE5" />
+            </StackLayout>
+            <Grid
+                ColumnSpacing="0"
+                Grid.ColumnSpan="2"
+                Grid.Row="7">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition
+                        Width="*" />
+                    <ColumnDefinition
+                        Width="*" />
+                    <ColumnDefinition
+                        Width="*" />
+                    <ColumnDefinition
+                        Width="*" />
+                    <ColumnDefinition
+                        Width="*" />
+                </Grid.ColumnDefinitions>
+                <BoxView
+                    BackgroundColor="#1F1F1F" />
+                <BoxView
+                    BackgroundColor="#EEEDE9"
+                    Grid.Column="1" />
+                <BoxView
+                    BackgroundColor="#F62B7C"
+                    Grid.Column="2" />
+                <BoxView
+                    BackgroundColor="#E10A19"
+                    Grid.Column="3" />
+                <Frame
+                    CornerRadius="0"
+                    BackgroundColor="#7D959F"
+                    Grid.Column="4"
+                    Padding="0"
+                    HasShadow="False">
+                    <Image
+                        VerticalOptions="Center"
+                        WidthRequest="20"
+                        HeightRequest="20"
+                        Source="ic_checkmark" />
+                </Frame>
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

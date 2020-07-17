@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:views="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+    BackgroundColor="#F8F8F8"
+    x:Class="ECommerce.Home.CarouselView.ReviewPurchasePage">
+    <!--BodySecond-->
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition
+                Height="*" />
+            <RowDefinition
+                Height="80" />
+        </Grid.RowDefinitions>
+        <ScrollView
+            BackgroundColor="Transparent">
+            <StackLayout
+                Spacing="16">
+                <Frame
+                    BorderColor="#E1E4EC"
+                    HasShadow="False"
+                    Padding="0">
+                    <Grid
+                        Margin="16">
+                        <Grid.RowDefinitions>
+                            <RowDefinition
+                                Height="16" />
+                            <RowDefinition
+                                Height="200" />
+                            <RowDefinition
+                                Height="24" />
+                            <RowDefinition
+                                Height="16" />
+                            <RowDefinition
+                                Height="16" />
+                        </Grid.RowDefinitions>
+                        <Label
+                            Text="REVIEW ORDER: "
+                            FontSize="12"
+                            TextColor="#327AE5" />
+                        <ListView
+                            x:Name="lstView"
+                            BackgroundColor="Transparent"
+                            Grid.Row="1"
+                            ItemsSource="{Binding getProductModels}"
+                            SeparatorVisibility="None"
+                            HasUnevenRows="True">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <Frame
+                                            CornerRadius="0"
+                                            HasShadow="False"
+                                            Padding="0">
+                                            <Grid
+                                                ColumnSpacing="0">
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition
+                                                        Height="32" />
+                                                    <RowDefinition
+                                                        Height="24" />
+                                                    <RowDefinition
+                                                        Height="16" />
+                                                    <RowDefinition
+                                                        Height="16" />
+                                                </Grid.RowDefinitions>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition
+                                                        Width="96" />
+                                                    <ColumnDefinition
+                                                        Width="*" />
+                                                    <ColumnDefinition
+                                                        Width="80" />
+                                                    <ColumnDefinition
+                                                        Width="24" />
+                                                </Grid.ColumnDefinitions>
+                                                <views:CachedImage
+                                                    Margin="8"
+                                                    Aspect="AspectFit"
+                                                    Source="{Binding Image}"
+                                                    Grid.RowSpan="3" />
+                                                <Label
+                                                    Text="{Binding NameProduct}"
+                                                    TextColor="Black"
+                                                    FontSize="17"
+                                                    Grid.ColumnSpan="2"
+                                                    Grid.Column="1"
+                                                    VerticalOptions="End"
+                                                    Grid.Row="0" />
+                                                <Label
+                                                    Text="{Binding Desmini}"
+                                                    TextColor="#A6B0BD"
+                                                    VerticalOptions="Start"
+                                                    FontSize="10"
+                                                    Grid.Column="1"
+                                                    Grid.Row="1" />
+                                                <Label
+                                                    Text="$399.95"
+                                                    TextColor="#1E2024"
+                                                    FontSize="16"
+                                                    Grid.Column="1"
+                                                    Grid.Row="2" />
+                                                <Label
+                                                    HorizontalOptions="Center"
+                                                    VerticalOptions="Center"
+                                                    Grid.Column="2"
+                                                    Grid.Row="2">
+                                                    <Label.FormattedText>
+                                                        <FormattedString>
+                                                            <Span
+                                                                Text="Quantity: "
+                                                                FontSize="10"
+                                                                TextColor="#A6B0BD" />
+                                                            <Span
+                                                                Text="2"
+                                                                TextColor="#327AE5"
+                                                                FontSize="10" />
+                                                        </FormattedString>
+                                                    </Label.FormattedText>
+                                                </Label>
+                                                <views:CachedImage
+                                                    Grid.Row="2"
+                                                    VerticalOptions="Center"
+                                                    Grid.Column="3"
+                                                    Source="ic_arrow"
+                                                    HorizontalOptions="Center"
+                                                    Aspect="AspectFit"
+                                                    Margin="0,0,16,0" />
+                                                <BoxView
+                                                    Grid.Row="3"
+                                                    Grid.ColumnSpan="3"
+                                                    HeightRequest="1"
+                                                    BackgroundColor="#E1E4EC"
+                                                    VerticalOptions="End" />
+                                            </Grid>
+                                        </Frame>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                        <StackLayout
+                            Orientation="Horizontal"
+                            Grid.Row="2">
+                            <Label
+                                HorizontalOptions="FillAndExpand"
+                                Text="Sub-Total:"
+                                FontSize="14"
+                                TextColor="#A6B0BD" />
+                            <Label
+                                HorizontalOptions="End"
+                                WidthRequest="56"
+                                Text="$899.9"
+                                FontSize="14"
+                                TextColor="#A6B0BD" />
+                        </StackLayout>
+                        <StackLayout
+                            Orientation="Horizontal"
+                            Grid.Row="3">
+                            <Label
+                                HorizontalOptions="FillAndExpand"
+                                Text="Shipping:"
+                                FontSize="14"
+                                TextColor="#A6B0BD" />
+                            <Label
+                                HorizontalOptions="End"
+                                Text="$50"
+                                FontSize="14"
+                                WidthRequest="56"
+                                TextColor="#A6B0BD" />
+                        </StackLayout>
+                        <StackLayout
+                            Orientation="Horizontal"
+                            Grid.Row="4">
+                            <Label
+                                HorizontalOptions="FillAndExpand"
+                                Text="Total:"
+                                FontSize="14"
+                                TextColor="#1E2024" />
+                            <Label
+                                HorizontalOptions="End"
+                                Text="$949.9"
+                                WidthRequest="56"
+                                FontSize="14"
+                                TextColor="#1E2024" />
+                        </StackLayout>
+                    </Grid>
+                </Frame>
+
+                <!--Item Second-->
+                <Frame
+                    BorderColor="#E1E4EC"
+                    HasShadow="False"
+                    Padding="0">
+                    <Grid
+                        BackgroundColor="Transparent"
+                        Margin="16">
+                        <Grid.RowDefinitions>
+                            <RowDefinition
+                                Height="24" />
+                            <RowDefinition
+                                Height="16" />
+                            <RowDefinition
+                                Height="24" />
+                            <RowDefinition
+                                Height="16" />
+                            <RowDefinition
+                                Height="16" />
+                            <RowDefinition
+                                Height="24" />
+                            <RowDefinition
+                                Height="16" />
+                            <RowDefinition
+                                Height="16" />
+                            <RowDefinition
+                                Height="24" />
+                            <RowDefinition
+                                Height="16" />
+                            <RowDefinition
+                                Height="16" />
+                            <RowDefinition
+                                Height="24" />
+                            <RowDefinition
+                                Height="16" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition
+                                Width="*" />
+                            <ColumnDefinition
+                                Width="*" />
+                            <ColumnDefinition
+                                Width="44" />
+                        </Grid.ColumnDefinitions>
+                        <Label
+                            Text="PAYMENT DETAILS:"
+                            FontSize="12"
+                            TextColor="#327AE5" />
+                        <Label
+                            Grid.Row="1"
+                            Text="Card Number"
+                            FontSize="10"
+                            TextColor="#A6B0BD" />
+                        <Entry
+                            Grid.ColumnSpan="3"
+                            Grid.Row="2"
+                            Placeholder="●●●● ●●●● ●●●● 9000"
+                            FontSize="16"
+                            PlaceholderColor="#1E2024" />
+                        <BoxView
+                            Grid.ColumnSpan="3"
+                            Grid.Row="3"
+                            HeightRequest="1"
+                            BackgroundColor="#E1E4EC"
+                            VerticalOptions="Center" />
+                        <Label
+                            Grid.Row="4"
+                            Text="Expiration Date"
+                            FontSize="10"
+                            TextColor="#A6B0BD" />
+                        <Label
+                            Grid.Row="5"
+                            Text="Choose Date"
+                            FontSize="16"
+                            TextColor="#1E2024" />
+                        <Button
+                            ImageSource="ic_arrowRight"
+                            Grid.Column="2"
+                            Grid.Row="4"
+                            VerticalOptions="Center"
+                            Grid.RowSpan="2" />
+                        <BoxView
+                            Grid.ColumnSpan="3"
+                            Grid.Row="6"
+                            HeightRequest="1"
+                            BackgroundColor="#E1E4EC"
+                            VerticalOptions="Center" />
+                        <Label
+                            Grid.Row="7"
+                            Text="CVV Code"
+                            FontSize="10"
+                            TextColor="#A6B0BD" />
+                        <Entry
+                            Grid.ColumnSpan="3"
+                            Grid.Row="8"
+                            Placeholder="Enter Postal Code"
+                            FontSize="16"
+                            PlaceholderColor="#1E2024" />
+                        <BoxView
+                            Grid.ColumnSpan="3"
+                            Grid.Row="9"
+                            HeightRequest="1"
+                            BackgroundColor="#E1E4EC"
+                            VerticalOptions="Center" />
+                        <Label
+                            Grid.Row="10"
+                            Text="Full Name: "
+                            FontSize="10"
+                            TextColor="#A6B0BD" />
+                        <Label
+                            Grid.Row="11"
+                            Text="Bao Quynh"
+                            FontSize="16"
+                            TextColor="#1E2024" />
+                        <BoxView
+                            Grid.Row="12"
+                            Grid.ColumnSpan="3"
+                            HeightRequest="1"
+                            BackgroundColor="#E1E4EC"
+                            VerticalOptions="Center" />
+                    </Grid>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+        <!--Footer-->
+
+        <Frame
+            IsVisible="{Binding IsvisibleReviewAndPurchase}"
+            Grid.Row="1"
+            BackgroundColor="Transparent"
+            Padding="0"
+            HasShadow="False">
+            <Button
+                Margin="16"
+                Text="PURCHASE PRODUCTS"
+                TextColor="#327AE5"
+                BorderWidth="1"
+                BorderColor="#327AE5"
+                FontSize="12" />
+        </Frame>
+    </Grid>
+</ContentView>

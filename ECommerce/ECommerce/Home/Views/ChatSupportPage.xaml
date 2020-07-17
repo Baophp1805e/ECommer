@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:views="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+    xmlns:iOS="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    iOS:Page.UseSafeArea="True"
+    BackgroundColor="#F8F8F8"
+    x:Name="root"
+    x:Class="ECommerce.Home.Views.ChatSupportPage">
+    <NavigationPage.TitleView>
+        <Grid
+            RowSpacing="0"
+            ColumnSpacing="0"
+            Padding="0"
+            BackgroundColor="Transparent">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition
+                    Width="0" />
+                <ColumnDefinition
+                    Width="*" />
+                <ColumnDefinition
+                    Width="44" />
+            </Grid.ColumnDefinitions>
+            <StackLayout
+                Grid.Column="1"
+                HorizontalOptions="Center">
+                <Label
+                    Text="Chat Support"
+                    FontSize="16"
+                    TextColor="White"
+                    HorizontalOptions="Center" />
+                <Label
+                    Text="Shop's Owner"
+                    FontSize="8"
+                    TextColor="White"
+                    HorizontalOptions="Center" />
+            </StackLayout>
+            <Button
+                BackgroundColor="Transparent"
+                Grid.Column="2"
+                Command="{Binding TapThreeDot}"
+                ImageSource="ic_option_3dot" />
+        </Grid>
+    </NavigationPage.TitleView>
+    <ContentPage.Content>
+        <Grid
+            RowSpacing="0">
+            <Grid.RowDefinitions>
+                <RowDefinition
+                    Height="*" />
+                <RowDefinition
+                    Height="48" />
+            </Grid.RowDefinitions>
+            <!--<SwipeView>
+                <SwipeView.RightItems>
+                    <SwipeItems>
+                        <SwipeItem
+                            Text="Delete"
+                            IconImageSource="delete.png"
+                            Invoked="OnDeleteSwipeItemInvoked"
+                            BackgroundColor="LightPink" />
+                    </SwipeItems>
+                </SwipeView.RightItems>
+                <Grid
+                    HeightRequest="60"
+                    WidthRequest="300"
+                    BackgroundColor="LightGray">
+                    <Label
+                        Text="Swipe left"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center" />
+                </Grid>
+
+            </SwipeView>-->
+            <ListView
+                x:Name="listview"
+                Grid.ColumnSpan="2"
+                ItemsSource="{Binding ListChat}"
+                SeparatorVisibility="None"
+                BackgroundColor="Transparent"
+                HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <SwipeView  Margin="16">
+                                <SwipeView.RightItems>
+                                    <SwipeItems>
+                                        <SwipeItem
+                                            Text="Delete"
+                                            Command="{Binding Source={x:Reference root}, Path=BindingContext.InvokeCmd}"
+                        CommandParameter="{Binding .}"
+                                            IconImageSource="delete.png"
+                                            BackgroundColor="LightPink" />
+                                    </SwipeItems>
+                                </SwipeView.RightItems>
+                                <Frame
+                                   
+                                    HasShadow="True"
+                                    Padding="0">
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition
+                                                Height="72" />
+                                            <RowDefinition
+                                                Height="*" />
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition
+                                                Width="72" />
+                                            <ColumnDefinition
+                                                Width="*" />
+                                            <ColumnDefinition
+                                                Width="48" />
+                                        </Grid.ColumnDefinitions>
+                                        <views:CachedImage
+                                            Source="{Binding User.Avatar}"
+                                            VerticalOptions="Center"
+                                            HorizontalOptions="Center"
+                                            WidthRequest="56"
+                                            HeightRequest="56" />
+                                        <Label
+                                            VerticalOptions="Center"
+                                            Text="{Binding User.NameCustomer}"
+                                            TextColor="#1E2024"
+                                            FontSize="16"
+                                            Grid.Column="1" />
+                                        <Label
+                                            Text="{Binding DateCreated}"
+                                            VerticalOptions="Center"
+                                            FontSize="10"
+                                            TextColor="#A6B0BD"
+                                            Grid.Column="2" />
+                                        <BoxView
+                                            HeightRequest="1"
+                                            BackgroundColor="#E1E4EC"
+                                            Margin="16,0"
+                                            VerticalOptions="End"
+                                            Grid.ColumnSpan="3" />
+                                        <Label
+                                            Margin="16"
+                                            Text="{Binding Content}"
+                                            FontSize="16"
+                                            TextColor="#A6B0BD"
+                                            Grid.ColumnSpan="3"
+                                            Grid.Row="1" />
+                                    </Grid>
+
+                                </Frame>
+
+                            </SwipeView>
+
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Frame
+                CornerRadius="0"
+                Grid.ColumnSpan="2"
+                Grid.Row="1"
+                Padding="0"
+                HasShadow="False">
+                <StackLayout
+                    Orientation="Horizontal"
+                    VerticalOptions="Center">
+                    <Entry
+                        Placeholder="Your response..."
+                        FontSize="16"
+                        Text="{Binding TextChat, Mode=TwoWay}"
+                        HorizontalOptions="StartAndExpand"
+                        Margin="16,0"
+                        PlaceholderColor="#A6B0BD" />
+                    <Button
+                        VerticalOptions="Center"
+                        Text="Send"
+                        Command="{Binding TapSendCmd}"
+                        FontSize="16"
+                        TextColor="#327AE5"
+                        HorizontalOptions="End"
+                        WidthRequest="48"
+                        Margin="0,0,16,0"
+                        BackgroundColor="Transparent" />
+                </StackLayout>
+
+            </Frame>
+
+        </Grid>
+
+    </ContentPage.Content>
+</ContentPage>
